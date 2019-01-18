@@ -1,0 +1,10 @@
+@import "../../../scss/variables";
+
+#pqNavBar {
+  background-color: $menubar-background-color;
+  color: $menubar-text-color;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}

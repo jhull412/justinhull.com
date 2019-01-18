@@ -1,0 +1,24 @@
+@import "~src/scss/variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+
+  .content {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding: 15px;
+    background-size: cover;
+  }
+
+  app-menu-bar::ng-deep {
+    flex: 0 0 auto;
+
+    .mat-toolbar {
+      background-color: #339381;
+      color: $menubar-text-color;
+    }
+  }
+}
