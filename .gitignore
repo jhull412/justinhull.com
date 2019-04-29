@@ -7,6 +7,10 @@
 
 # dependencies
 **/node_modules
+/node_modules
+
+# Only exists if Bazel was run
+/bazel-out
 
 # profiling files
 chrome-profiler-events.json
@@ -21,6 +25,7 @@ speed-measure-plugin.json
 
 # IDEs and editors
 **/.idea
+/.idea
 .project
 .classpath
 .c9/
@@ -34,6 +39,7 @@ speed-measure-plugin.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.history/*
 
 # misc
 /.sass-cache
