@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {MaterialModule} from './material/material.module';
 import {CommonModule} from '@angular/common';
 import {RouterModule} from '@angular/router';
+import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
 
 @NgModule({
   imports: [
@@ -9,10 +10,11 @@ import {RouterModule} from '@angular/router';
     CommonModule,
     MaterialModule,
   ],
-  declarations: [],
+  declarations: [NavigationBarComponent],
   entryComponents: [],
   exports: [
-    MaterialModule
+    MaterialModule,
+    NavigationBarComponent
   ]
 })
 export class SharedModule {
