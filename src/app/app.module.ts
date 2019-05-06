@@ -6,6 +6,8 @@ import {LandingModule} from './landing/landing.module';
 import {SharedModule} from './shared/shared.module';
 import {HttpClientModule} from "@angular/common/http";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {FlexLayoutModule} from "@angular/flex-layout";
+import {MaterialModule} from "./shared/material/material.module";
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    FlexLayoutModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,28 @@
+
+:host {
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;;
+}
+section {
+  padding-left: 15px;
+
+  h1 {
+    font-size: 1em;
+    margin-top: 1em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    span {
+      font-size: 0.75em;
+      font-weight: normal;
+      line-height: 2em;
+      vertical-align: top;
+    }
+  }
+
+  p {
+    strong {
+      color: #6983ff;
+    }
+  }
+}
