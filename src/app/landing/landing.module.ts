@@ -4,11 +4,13 @@ import {RouterModule} from '@angular/router';
 import {CommonModule} from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import {SharedModule} from '../shared/shared.module';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     LandingComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,

@@ -1,3 +1,8 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .sidenav-container {
   height: 100%;
 }
@@ -8,21 +13,32 @@
   border: none;
 }
 
-.sidenav .mat-toolbar {
-  /*background: inherit;*/
+.sidenav {
+  background: #fafafa;
+
+  .mat-toolbar {
+
+  }
 }
+
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
-}
 
-//@media (min-width: 760px) {
-//  .sidenav {
-//    display: none;
-//  }
-//}
+  .logo {
+    width: 100px;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-list-item {
+    flex: 1 1 auto;
+  }
+}
 
 .toolbar-heading {
 
